@@ -6,50 +6,81 @@ src:url("Unica77LL-Bold.otf");
 src:url("wolfhouse-regular-webfont.woff");
 }
 
-/* Mobile Below 800px */
 
-html{
-    overflow: scroll;
-/*    scroll-behavior: smooth;*/
+::-webkit-scrollbar {
+    display: none;
 }
 
+/* Mobile Below 600px */
+
 header{
-    margin-left: 3%;
-    margin-right: 3%;
+    position: fixed;
+    margin-bottom: 25vh;    
+    background: #f7f7f7;
+}
+
+
+.index{
+    width: 100vw;
+    background: #f7f7f7;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 3vw;
+}
+
+.menudesk{
+    display: none;
+}
+
+
+.main-content{
+    padding-top:25vh;
+}
+
+.menu {
+    opacity: 0;
+    position: fixed;
+    visibility:  hidden;
+    background: #f7f7f7;
+    margin-top: 0;
+    width: 100vw;
+    font-size: 4vw;
+    left: -3vw;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+}
+
+.menu-open {
+    opacity: 1;
+    visibility: visible;    
 }
 
 body{
-    display: none;
     font-family: Unica77LL-Regular;
-    font-size: 16px;
+    font-size: 4vw;
     line-height: 1.2;
     background: #f7f7f7;
     display: block;
 }
 
+p{
+    margin: 3vw;
+}
 
 img{
     width: 100vw;
     height: inherit;
 }
 
-.menu {
-    opacity: 0;
-    visibility:  hidden;
+
+.logo{
     background: #f7f7f7;
-    margin-top: 0;
-    width: 100vw;
-    font-size: 16px;
-    padding-bottom: 3%;
-/*    padding-left: 3.5vh; */
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 94vw;
+    padding:3vw;
 }
-
-.menu-open {
-    opacity: 1;
-    visibility: visible;
-}
-    
-
 
 
 
@@ -58,25 +89,31 @@ img{
 @media only screen and (min-width: 800px) {
     
     
-html {
+html {    
 	height: 100%;
     font-family: Unica77LL-Regular;
     font-size: 16px;
     background: #f7f7f7;
 }
-/*
 
-.imgtext{
-       padding-top: 1.75vh;
+.main-content{
+    padding-top:0;
 }
-*/
+    
+body{
+    font-size: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    }    
+p{
+    margin: 0;
+}
 
 /*caption style*/
 .caption{
     font-size: 16px;
     line-height: 1.2;
-    margin-top: 2vh;
-    
+    margin-top: 2vh;   
 }
 
 /*two column text*/
@@ -95,22 +132,45 @@ html {
 
     
 header{
-   z-index: 100;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    display:block;
+    z-index: 100;
     position: fixed;
     width: 100%;
     margin-top: 1.5vw;
     display: block;
 
 }
-
-h2{
-    font-family: wolfhouse-regular;
-    font-size: 12vh;
-    position: fixed;
-    bottom: 0;
-    padding-left: 3vw;    
-    }
+.index {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    display: inline-block;
+    width: 21.25vw;        
+    }   
     
+.menudesk{    
+    padding-left: 3vw;
+    display: inline-block;
+    width: 21.25vw;
+}
+    
+.hidemobile{
+    display: none;
+}
+    
+.logo{
+    width: auto;
+    height: 8vh;
+    bottom: 0;
+    padding-bottom:1.5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 0;
+}
+
+
 img {
     object-fit:cover;
 	border: 0;
@@ -144,12 +204,28 @@ img {
     height: inherit;
 }
 
-    
 
+.menu {
+    opacity: 0;
+    position: fixed;
+    visibility:  hidden;
+    background: #f7f7f7;
+    margin-top: 0;
+    width: 100vw;
+    font-size: 16px;
+    padding-bottom: 0;
+    padding-left: 3vw;
+    left: 0;
+}
+    
+.menu-open {
+    opacity: 1;
+    visibility: visible;
+}
+    
 .credits{
   display: block;
 }
-
 
 
 a:link{
