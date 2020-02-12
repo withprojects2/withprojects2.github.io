@@ -6,10 +6,11 @@ src:url("Unica77LL-Bold.otf");
 src:url("wolfhouse-regular-webfont.woff");
 }
 
-/* Mobile Below 600px */
+/* Mobile Below 800px */
 
 html{
     overflow: scroll;
+/*    scroll-behavior: smooth;*/
 }
 
 header{
@@ -32,9 +33,29 @@ img{
     height: inherit;
 }
 
+.menu {
+    opacity: 0;
+    visibility:  hidden;
+    background: #f7f7f7;
+    margin-top: 0;
+    width: 100vw;
+    font-size: 16px;
+    padding-bottom: 3%;
+/*    padding-left: 3.5vh; */
+}
+
+.menu-open {
+    opacity: 1;
+    visibility: visible;
+}
+    
+
+
+
+
 /*  Desktop Above 600px */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
     
     
 html {
@@ -78,6 +99,7 @@ header{
     position: fixed;
     width: 100%;
     margin-top: 1.5vw;
+    display: block;
 
 }
 
@@ -123,29 +145,12 @@ img {
 }
 
     
-/*
 
 .credits{
-    margin-left: 3vh;
-}
-*/
-
-.menu {
-    opacity: 0;
-    visibility:  hidden;
-    background: #f7f7f7;
-    margin-top: 0;
-    width: 100vw;
-    font-size: 16px;
-    padding-bottom: 3%;
-/*    padding-left: 3.5vh; */
+  display: block;
 }
 
-.menu-open {
-    opacity: 1;
-    visibility: visible;
-}
-    
+
 
 a:link{
     color: black;

@@ -6,19 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-
-    
-<script>
-window.addEventListener('resize', () => {
-  if (window.innerWidth < 700) {
-    disableMousewheel.js()
-  } else {
-    enableMousewheel.js()
-  }
-})    
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='./script/mousewheel.js'></script>
+<script  src="./script.js"></script>
     
 
-</script>
     
 </head>
 
@@ -29,7 +21,10 @@ window.addEventListener('resize', () => {
         <div class="col span_1_of_4">
             <div class="credits"><a>Index</a></div>
                 <p id='menu' class='menu'><br>
-                Welcome<br>Our Story<br>In our Home<br>Contact</p>
+                <a href="#1">Welcome</a><br>
+                <a href="#2">Our Story</a><br>
+                <a href="#3">In our Home</a><br>
+                <a href="#4">Contact</a></p>
         </div>
         <script src="script/credits.js"></script>
         
@@ -56,7 +51,7 @@ window.addEventListener('resize', () => {
             
 
             <div  class="entry">
-                <p class="twocol">Welcome<br>Introduction text about the Wolfhouse. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim consequat placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim consequat placerat. Lorem ipsum dolor sit amet, elit. Praesent dignissim consequat placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim consequat placerat.</p>
+                <p class="twocol"><a id="1">Welcome</a><br>Introduction text about the Wolfhouse. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim consequat placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim consequat placerat. Lorem ipsum dolor sit amet, elit. Praesent dignissim consequat placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim consequat placerat.</p>
             </div>
             
             
@@ -91,7 +86,7 @@ window.addEventListener('resize', () => {
             
             
             <div class="entry">
-                <p class="onecol">The Wolf Family<br>Text about the Wolf family, what they loved about the house, why it was built, etc. Ad eat. To exceaturia quiat as nem aut accum repe dolupta turibeatur arisim recest doloreiunt reped quia nobit il enit ut qui autessit, corumquis mil molorru mquam, officipsaped molupti volor asitate con cus.</p><img class="onecolimg" src="images/3.jpg">
+                <p class="onecol"><a id="2">The Wolf Family</a><br>Text about the Wolf family, what they loved about the house, why it was built, etc. Ad eat. To exceaturia quiat as nem aut accum repe dolupta turibeatur arisim recest doloreiunt reped quia nobit il enit ut qui autessit, corumquis mil molorru mquam, officipsaped molupti volor asitate con cus.</p><img class="onecolimg" src="images/3.jpg">
                 <p class="caption"><br>caption<br>caption<br>caption</p>
                 
             </div>
@@ -117,9 +112,9 @@ window.addEventListener('resize', () => {
                     <p class="caption">caption<br>caption<br>caption</p>
                 </div>
             </div>
-            
+            <a id="blue"></a>
             <div  class="entry">
-                <p class="twocol">In our Home<br>What the house features/talk about the furniture, etc. expla dere et aut ligenti berciate por magnimos aborepe optation coremped ut ea vel magniet volupta tempor alis elis apitatis volorio incto  </p>
+                <p class="twocol"><a id="3">In our Home</a><br>What the house features/talk about the furniture, etc. expla dere et aut ligenti berciate por magnimos aborepe optation coremped ut ea vel magniet volupta tempor alis elis apitatis volorio incto  </p>
             </div>
     
             
@@ -154,7 +149,7 @@ window.addEventListener('resize', () => {
 
 
             <div  class="entry">
-                <p class="twocol">Press</p>
+                <p class="twocol"><a id="4">Press</a></p>
             </div>
             
             
@@ -181,8 +176,4 @@ window.addEventListener('resize', () => {
         <h2>Wolfhouse</h2>
 
     </footer>
-    
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-<script src='./script/mousewheel.js'></script>
-<script  src="./script.js"></script>
 </html>
