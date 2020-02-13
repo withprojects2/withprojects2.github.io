@@ -75,7 +75,7 @@ header{
 
 body{
     font-family: neue-haas-unica;
-    font-size: 4vw;
+    font-size: 6vw;
     line-height: 1.2;
     background: #f7f7f7;
     display: block;
@@ -121,6 +121,11 @@ a:hover{
     text-decoration: underline;
     cursor: pointer;}
 
+.caption{
+    font-size: 16px;
+    line-height: 1.2;
+    margin-top: 1vh;   
+}
 
 
 
