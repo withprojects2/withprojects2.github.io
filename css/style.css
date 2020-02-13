@@ -45,11 +45,7 @@ header{
     margin: 0vw;
 }
 
-.test2{
-    width: 200vw;
-    height: inherit;
-    margin: 0vw;
-}
+
 
 
 
@@ -112,6 +108,11 @@ img{
     height: inherit;
 }
 
+.wimg{
+    width: 200vw;
+    height: inherit;
+    margin: 0vw;
+}
 
 .logo{
     background: #f7f7f7;
