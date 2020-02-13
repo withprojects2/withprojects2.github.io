@@ -1,11 +1,29 @@
 @import 'reset.css';
 
+/*
 @font-face {
 src:url("Unica77LL-Regular.otf");
 src:url("Unica77LL-Bold.otf");
 src:url("wolfhouse-regular-webfont.woff");
 }
+*/
 
+<link rel="stylesheet" href="https://use.typekit.net/fxt6lwh.css">
+font-family: neue-haas-unica,sans-serif;
+font-weight: 600;
+font-style: normal;
+
+font-family: neue-haas-unica,sans-serif;
+font-weight: 600;
+font-style: italic;
+
+font-family: neue-haas-unica,sans-serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: neue-haas-unica,sans-serif;
+font-weight: 400;
+font-style: normal;
 
 ::-webkit-scrollbar {
     display: none;
@@ -56,7 +74,7 @@ header{
 }
 
 body{
-    font-family: Unica77LL-Regular;
+    font-family: neue-haas-unica;
     font-size: 4vw;
     line-height: 1.2;
     background: #f7f7f7;
@@ -64,6 +82,7 @@ body{
 }
 
 p{
+    font-family: neue-haas-unica;
     margin: 3vw;
 }
 
@@ -112,7 +131,7 @@ a:hover{
     
 html {    
 	height: 100%;
-    font-family: Unica77LL-Regular;
+    font-family: neue-haas-unica;
     font-size: 16px;
     background: #f7f7f7;
 }
