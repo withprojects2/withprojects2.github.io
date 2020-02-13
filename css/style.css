@@ -56,6 +56,7 @@ header{
     padding-top:25vh;
 }
 
+
 .menu {
     opacity: 0;
     position: fixed;
@@ -299,6 +300,8 @@ img {
 	word-wrap: break-word;
     margin-left: 3%;
     margin-top: 12vh;}
+    
+    
     
 /*  SECTIONS  */
 .section {
