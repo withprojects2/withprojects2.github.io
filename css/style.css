@@ -38,6 +38,21 @@ header{
 }
 
 
+.test61{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100vw;
+    margin: 0vw;
+}
+
+.test2{
+    width: 200vw;
+    height: inherit;
+    margin: 0vw;
+}
+
+
+
 .index{
     width: 100vw;
     background: #f7f7f7;
