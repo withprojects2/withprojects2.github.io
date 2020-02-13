@@ -38,15 +38,22 @@ header{
 }
 
 
-.test61{
+.scrollimg{
     overflow-x: scroll;
     overflow-y: hidden;
     width: 100vw;
     margin: 0vw;
 }
 
+.scrollsize{
+    width: 200vw;
+    height: inherit;
+    margin: 0vw;
+}
 
-
+.wimg{
+    display: none;
+}
 
 
 .index{
@@ -108,11 +115,6 @@ img{
     height: inherit;
 }
 
-.wimg{
-    width: 200vw;
-    height: inherit;
-    margin: 0vw;
-}
 
 .logo{
     background: #f7f7f7;
@@ -157,7 +159,9 @@ a:hover{
 
 @media only screen and (min-width: 800px) {
     
-    
+    .scrollimg{
+        display: none;
+    }
 html {    
 	height: 100%;
     font-family: neue-haas-unica;
@@ -258,6 +262,7 @@ img {
 .wimg{
     height: 76vh;
     width: inherit;
+    display: block;
 }
 
 .wimg2{
