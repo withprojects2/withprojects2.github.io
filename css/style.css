@@ -67,7 +67,9 @@ header{
     font-size: 6vw;
     left: -3vw;
     padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-bottom: 100vw;
+    padding-top: 18vh;
+    
 }
 
 .menu-open {
@@ -221,6 +223,11 @@ header{
     padding-top: 0;
 }
 
+    
+.menu {
+    padding-top: 0vh;
+    
+}
 
 img {
      margin-left: 0vw;
