@@ -25,6 +25,9 @@ font-family: neue-haas-unica,sans-serif;
 font-weight: 400;
 font-style: normal;
 
+::-webkit-scrollbar {
+    display: none;
+}
 
 /* Mobile Below 600px */
 
@@ -34,14 +37,12 @@ header{
     background: #f7f7f7;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
 
 .index{
     width: 100vw;
     background: #f7f7f7;
     margin-left: 3vw;
+    margin-bottom: 3vw;
     margin-right: 3vw;
     margin-top: 3vw;
 }
