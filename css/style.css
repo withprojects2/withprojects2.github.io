@@ -123,18 +123,18 @@ img {
 
 
 .logo {
-     background: #f7f7f7;
-        position: fixed;
-        display: block;
-        width: 94vw;
-        height: inherit;
-        top: inherit;
-        bottom: 0;
-        padding-left: 3vw;
-        padding-right: 3vw;
-        padding-bottom: 6vw;
-        padding-top: 3vh;
-    }
+    background: #f7f7f7;
+    position: fixed;
+    display: block;
+    width: 94vw;
+    height: inherit;
+    top: inherit;
+    bottom: 0;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 6vw;
+    padding-top: 3vh;
+}
 
 
 a:link {
@@ -172,15 +172,15 @@ a:hover {
 }
 
 @media only screen and (min-width: 800px) {
-    body{
+    body {
         font-size: 4vw;
     }
-    
+
     .menu {
         font-size: 4vw;
     }
-    
-    
+
+
 }
 
 
@@ -272,8 +272,8 @@ a:hover {
     }
 
 
-    
-        .logo {
+
+    .logo {
         padding-bottom: 3vw;
         position: fixed;
         display: block;
@@ -283,8 +283,8 @@ a:hover {
         margin-top: 85.5vh;
         padding-left: 3vw;
         padding-right: 3vw;
-        top:inherit;
-     
+        top: inherit;
+
     }
 
 
@@ -449,7 +449,7 @@ a:hover {
         margin-top: 12vh;
     }
 
-        .logo {
+    .logo {
         top: inherit;
         position: fixed;
         display: block;
