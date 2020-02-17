@@ -169,10 +169,22 @@ a:hover {
 
 }
 
-
-/*  Desktop Above 600px */
-
 @media only screen and (min-width: 800px) {
+    body{
+        font-size: 4vw;
+    }
+    
+    .menu {
+        font-size: 4vw;
+    }
+    
+    
+}
+
+
+/*  Desktop Above 1024px */
+
+@media only screen and (min-width: 1024px) {
 
 
     .pmobile {
@@ -259,7 +271,7 @@ a:hover {
 
     .logo {
         width: auto;
-        height: 8vh;
+        height: 15vh;
         bottom: 0;
         padding-bottom: 1.5vw;
         padding-left: 3vw;
@@ -284,14 +296,14 @@ a:hover {
     }
 
     .wimg {
-        height: 76vh;
+        height: 65vh;
         width: inherit;
         display: block;
     }
 
     .wimg2 {
         width: inherit;
-        height: 76vh;
+        height: 65vh;
         margin-right: 3.5vh;
     }
 
@@ -353,7 +365,7 @@ a:hover {
         white-space: normal;
         word-wrap: break-word;
         margin-left: 3%;
-        margin-top: 12vh;
+        margin-top: 17.5vh;
     }
 
 
@@ -408,4 +420,28 @@ a:hover {
         width: 21.25%;
     }
 
+}
+
+
+@media only screen and (min-width: 1280px) {
+
+    .wimg {
+        height: 76vh;
+        width: inherit;
+        display: block;
+    }
+
+    .wimg2 {
+        width: inherit;
+        height: 76vh;
+        margin-right: 3.5vh;
+    }
+
+    .entry {
+        margin-top: 12vh;
+    }
+
+    .logo {
+        height: 7vh;
+    }
 }
