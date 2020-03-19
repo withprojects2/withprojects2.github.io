@@ -120,8 +120,18 @@ img {
     height: inherit;
 }
 
+.onecolimg {
+
+    margin-top: 3vw;
+
+}
 
 
+    .textimg {
+
+        margin-top: 3vw;
+
+    }
 .logo {
     background: #f7f7f7;
     position: fixed;
@@ -239,7 +249,7 @@ a:hover {
         line-height: 1.2;
         width: 21.25vw;
     }
-    
+
 
     header {
         margin-left: 3vw;
@@ -323,12 +333,14 @@ a:hover {
         width: 21.25vw;
         height: inherit;
         margin-bottom: 1.5vw;
+        margin-top: 0vw;
 
     }
 
     .textimg {
         width: 45.5vw;
         margin-bottom: 1.5vw;
+        margin-top: 0vw;
         height: inherit;
     }
 
@@ -460,6 +472,6 @@ a:hover {
         padding-left: 3vw;
         padding-right: 3vw;
     }
-    
- 
+
+
 }
