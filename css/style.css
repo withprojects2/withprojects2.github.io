@@ -239,7 +239,7 @@ a:hover {
         line-height: 1.2;
         width: 21.25vw;
     }
-
+    
 
     header {
         margin-left: 3vw;
@@ -322,7 +322,7 @@ a:hover {
     .onecolimg {
         width: 21.25vw;
         height: inherit;
-        margin-top: 1.5vw;
+        margin-bottom: 1.5vw;
 
     }
 
@@ -460,4 +460,6 @@ a:hover {
         padding-left: 3vw;
         padding-right: 3vw;
     }
+    
+ 
 }
