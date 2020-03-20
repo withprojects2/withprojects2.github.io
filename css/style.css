@@ -40,6 +40,14 @@ header {
     background: #f7f7f7;
 }
 
+/*
+html{
+    -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+*/
 
 .scrollimg {
     overflow-x: scroll;
@@ -48,6 +56,10 @@ header {
     margin: 0vw;
 }
 
+
+.caption2{
+     font-size: 16px;
+}
 .scrollsize {
     width: 194vw;
     padding-left: 3vw;
