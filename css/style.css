@@ -134,14 +134,14 @@ img {
 
 .onecolimg {
 
-    margin-top: 3vw;
+/*    margin-top: 3vw;*/
 
 }
 
 
     .textimg {
 
-        margin-top: 3vw;
+/*        margin-top: 3vw;*/
 
     }
 .logo {
@@ -179,8 +179,10 @@ a:hover {
 .caption {
     font-size: 16px;
     line-height: 1.2;
+/*
     margin-top: 0vh;
     margin-bottom: 3vh;
+*/
 }
 
 
@@ -193,6 +195,10 @@ a:hover {
 
 }
 
+.mbreaks{
+    display: none;
+}
+
 @media only screen and (min-width: 800px) {
     body {
         font-size: 4vw;
@@ -202,6 +208,9 @@ a:hover {
         font-size: 4vw;
     }
 
+    .mbreaks{
+    display: block;
+}
 
 }
 
@@ -210,7 +219,9 @@ a:hover {
 
 @media only screen and (min-width: 1024px) {
 
-
+.mbreaks{
+    display: block;
+}
     .pmobile {
         display: none;
     }
