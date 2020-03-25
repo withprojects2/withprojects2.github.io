@@ -111,6 +111,7 @@ span{
     padding-left: 3vw;
     padding-bottom: 1.5vh;
 /*    padding-top: 178px;*/
+    margin-left: 3vw;
 
 }
 
@@ -435,6 +436,7 @@ a:hover {
         padding-bottom: 0;
         padding-left: 3vw;
         left: 0;
+          margin-left: 0vw;
     }
 
     .menu-open {
