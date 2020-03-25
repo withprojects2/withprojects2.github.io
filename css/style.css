@@ -48,8 +48,8 @@ html{
 
 span{
     -webkit-hyphens: none;
-     -ms-hyphens: auto;
-  hyphens: auto;
+     -ms-hyphens: none;
+  hyphens: none;
 }
 
 .scrollimg {
