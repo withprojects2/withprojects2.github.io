@@ -47,7 +47,9 @@ html{
 }
 
 span{
-    hyphens: none;
+    -webkit-hyphens: none;
+     -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 .scrollimg {
