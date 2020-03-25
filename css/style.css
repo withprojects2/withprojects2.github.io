@@ -40,14 +40,15 @@ header {
     background: #f7f7f7;
 }
 
-/*
 html{
     -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
 }
 
-*/
+span{
+    hyphens: none;
+}
 
 .scrollimg {
     overflow-x: scroll;
@@ -72,6 +73,10 @@ html{
     display: none;
 }
 
+
+.entry{
+    margin-bottom: 3vw;
+}
 
 .index {
     width: 100vw;
@@ -122,7 +127,7 @@ body {
 
 p {
     font-family: neue-haas-unica;
-    margin: 3vw;
+/*    margin: 3vw;*/
 }
 
 img {
@@ -199,6 +204,35 @@ a:hover {
     display: none;
 }
 
+
+
+.twocol {
+    margin-left: 3vw;
+    margin-right: 3vw;
+      margin-bottom: 3vw;
+    
+    
+    
+}
+
+
+
+.caption2{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 16px;
+    margin-top: -1vw;
+}
+
+
+
+
+.onecol{
+         margin-left: 3vw;
+        margin-right: 3vw;
+    margin-bottom: 3vw;
+    
+}
 @media only screen and (min-width: 800px) {
     body {
         font-size: 4vw;
@@ -211,6 +245,9 @@ a:hover {
     .mbreaks{
     display: block;
 }
+    .logo{
+/*        background: transparent;*/
+    }
 
 }
 
@@ -219,6 +256,14 @@ a:hover {
 
 @media only screen and (min-width: 1024px) {
 
+.caption2{
+    margin-left: 0vw;
+    margin-right: 0vw;
+    font-size: 16px;
+    margin-top: 0vw;
+}
+    
+    
 .mbreaks{
     display: block;
 }
@@ -256,7 +301,7 @@ a:hover {
     .caption {
         font-size: 16px;
         line-height: 1.2;
-        margin-top: 1vh;
+/*        margin-top: 1vh;*/
     }
 
     /*two column text*/
@@ -264,6 +309,11 @@ a:hover {
         font-size: 1.6vw;
         line-height: 1.2;
         width: 45.5vw;
+        margin-bottom: 1.5vh;
+           margin-left: 0vw;
+    margin-right: 0vw;
+    
+    
     }
 
     /*one column text*/
@@ -271,6 +321,9 @@ a:hover {
         font-size: 1.6vw;
         line-height: 1.2;
         width: 21.25vw;
+        margin-bottom: 1.5vh;
+        margin-left: 0vw;
+        margin-right: 0vw;
     }
 
 
@@ -307,6 +360,7 @@ a:hover {
 
 
     .logo {
+        background: transparent;
         padding-bottom: 3vw;
         position: fixed;
         display: block;
@@ -355,14 +409,14 @@ a:hover {
     .onecolimg {
         width: 21.25vw;
         height: inherit;
-        margin-bottom: 1.5vw;
+        margin-bottom: 1.5vh;
         margin-top: 0vw;
 
     }
 
     .textimg {
         width: 45.5vw;
-        margin-bottom: 1.5vw;
+        margin-bottom: 1.5vh;
         margin-top: 0vw;
         height: inherit;
     }
